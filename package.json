@@ -1,6 +1,6 @@
 {
 	"name": "object.hasown",
-	"version": "1.0.0",
+	"version": "1.1.0",
 	"description": "ES spec-compliant shim for Object.hasOwn",
 	"main": "index.js",
 	"exports": {
