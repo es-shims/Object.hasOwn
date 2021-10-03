@@ -6,34 +6,16 @@
 	"exports": {
 		".": [
 			{
+				"import": "./index.mjs",
+				"require": "./index.js",
 				"default": "./index.js"
 			},
 			"./index.js"
 		],
-		"./auto": [
-			{
-				"default": "./auto.js"
-			},
-			"./auto.js"
-		],
-		"./shim": [
-			{
-				"default": "./shim.js"
-			},
-			"./shim.js"
-		],
-		"./polyfill": [
-			{
-				"default": "./polyfill.js"
-			},
-			"./polyfill.js"
-		],
-		"./implementation": [
-			{
-				"default": "./implementation.js"
-			},
-			"./implementation.js"
-		],
+		"./auto": "./auto.js",
+		"./shim": "./shim.js",
+		"./polyfill": "./polyfill.js",
+		"./implementation": "./implementation.js",
 		"./package.json": "./package.json"
 	},
 	"scripts": {
@@ -43,7 +25,8 @@
 		"postlint": "es-shim-api --bound",
 		"pretest": "npm run lint",
 		"tests-only": "nyc tape 'test/**/*.js'",
-		"test": "npm run tests-only",
+		"tests-esm": "nyc node test/index.mjs",
+		"test": "npm run tests-only && npm run tests-esm",
 		"posttest": "aud --production",
 		"version": "auto-changelog && git add CHANGELOG.md",
 		"postversion": "auto-changelog && git add CHANGELOG.md && git commit --no-edit --amend && git tag -f \"v$(node -e \"console.log(require('./package.json').version)\")\""
