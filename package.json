@@ -53,7 +53,7 @@
 	"homepage": "https://github.com/es-shims/Object.hasOwn",
 	"devDependencies": {
 		"@es-shims/api": "^2.2.3",
-		"@ljharb/eslint-config": "^20.0.0",
+		"@ljharb/eslint-config": "^20.1.0",
 		"aud": "^1.1.5",
 		"auto-changelog": "^2.3.0",
 		"call-bind": "^1.0.2",
