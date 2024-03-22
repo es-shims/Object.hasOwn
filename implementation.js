@@ -1,6 +1,6 @@
 'use strict';
 
-var ToObject = require('es-abstract/2023/ToObject');
+var ToObject = require('es-object-atoms/ToObject');
 var ToPropertyKey = require('es-abstract/2023/ToPropertyKey');
 var HasOwnProperty = require('es-abstract/2023/HasOwnProperty');
 
