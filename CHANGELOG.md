@@ -5,6 +5,18 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v1.1.5](https://github.com/es-shims/Object.hasOwn/compare/v1.1.4...v1.1.5) - 2026-09-15
+
+### Commits
+
+- [actions] update workflows [`a1a46b1`](https://github.com/es-shims/Object.hasOwn/commit/a1a46b1c259b1b8ca57b576cc2a2997aaee31268)
+- [Dev Deps] update `@es-shims/api`, `@ljharb/eslint-config`, `auto-changelog`, `call-bind`, `eslint`, `has-strict-mode`, `has-symbols`, `npmignore`, `tape` [`0c9a4c8`](https://github.com/es-shims/Object.hasOwn/commit/0c9a4c8ee569498fb134c3b90f612c13e4b05512)
+- [Deps] update `es-abstract`, `es-object-atoms` [`bb3bc88`](https://github.com/es-shims/Object.hasOwn/commit/bb3bc88a976cf584ea3a107fefb2ffbd0d3330a5)
+- [meta] use `npm audit` instead of `aud` [`78611ad`](https://github.com/es-shims/Object.hasOwn/commit/78611adc51de03d2160b60bda196602dce413bdc)
+- [Fix] move `call-bind` to runtime deps [`a877775`](https://github.com/es-shims/Object.hasOwn/commit/a8777758a2dc57cea86838e97346963e76034d18)
+- [actions] set least-privilege `cache-mode` [`8f18ffa`](https://github.com/es-shims/Object.hasOwn/commit/8f18ffaf76dc79ba8d8561e04b41ccb7e01a64d8)
+- [readme] replace runkit CI badge with shields.io check-runs badge [`39e7636`](https://github.com/es-shims/Object.hasOwn/commit/39e76369b23c7e2b737b0e3b8c14dd9012179a16)
+
 ## [v1.1.4](https://github.com/es-shims/Object.hasOwn/compare/v1.1.3...v1.1.4) - 2024-03-22
 
 ### Commits
