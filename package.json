@@ -50,19 +50,19 @@
 		"es-object-atoms": "^1.0.0"
 	},
 	"devDependencies": {
-		"@es-shims/api": "^2.4.2",
-		"@ljharb/eslint-config": "^21.1.0",
-		"auto-changelog": "^2.4.0",
-		"call-bind": "^1.0.7",
-		"eslint": "=8.8.0",
+		"@es-shims/api": "^2.5.1",
+		"@ljharb/eslint-config": "^22.2.4",
+		"auto-changelog": "^2.6.1",
+		"call-bind": "^1.0.9",
+		"eslint": "^8.57.1",
 		"functions-have-names": "^1.2.3",
-		"has-strict-mode": "^1.0.1",
-		"has-symbols": "^1.0.3",
+		"has-strict-mode": "^1.1.0",
+		"has-symbols": "^1.1.0",
 		"in-publish": "^2.0.1",
-		"npmignore": "^0.3.1",
+		"npmignore": "^0.3.5",
 		"nyc": "^10.3.2",
 		"safe-publish-latest": "^2.0.0",
-		"tape": "^5.7.5"
+		"tape": "^5.10.2"
 	},
 	"auto-changelog": {
 		"output": "CHANGELOG.md",
